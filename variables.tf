@@ -4,7 +4,7 @@ variable "efs" {
   type        = map
 
   default = {
-    creation_token                  = "mm-my-product"
+    creation_token                  = "my-product"
     transition_to_ia                = "AFTER_30_DAYS"
     kms_key_id                      = ""
     encrypted                       = true
